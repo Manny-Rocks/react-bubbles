@@ -4,10 +4,12 @@ import * as Yup from "yup";
 import axios from "axios";
 import '../styles.scss'
 
-  // make a post request to retrieve a token from the api
-  // when you have handled the token, navigate to the BubblePage route
+  // post request to retrieve a token from the api
+  
 
   function Login({ touched, errors,values }) {
+
+  //  
   return (
     <Form className="form">
       <h1>Welcome to the Bubble App!</h1>
