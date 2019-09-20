@@ -8,6 +8,9 @@ body,
   height: 100%;
   margin: 0;
   padding: 0;
+  // background-image: url("https://images.all-free-download.com/images/graphiclarge/abstract_colorful_bubbles_background_vector_graphic_569495.jpg");
+  // background-size:  100% 80%;
+  
 }
 
 .App {
@@ -116,5 +119,45 @@ form {
 
 .form-box{
  background-color: rgb(221, 215, 215);
+//  border:2px solid red;
+
+ display:flex;
+ justify-content: space-evenly;
+ padding:10px;
+
+
  
+}
+.form{
+  // background-color:rgb(163, 163, 163);
+  margin:0 auto;
+  padding:10px;
+  height:47%;
+  width:30%;
+  margin-top:30px;
+  border-radius:20px;
+}
+.form h1{
+  background-color:rgb(5, 170, 41);
+  color:white;
+  padding:10px;
+  border-radius:10px;
+}
+.label{
+  color:blue;
+  margin-left:20px;
+  margin-top:20px;
+}
+input{
+  margin-top:20px;
+}
+.tos{
+  display:flex;
+  align-items: center;
+}
+.checkbox-container{
+  background-color:white;
+}
+.checkbox-container p{
+  color:rgb(22, 22, 20);;
 }
