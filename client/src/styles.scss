@@ -76,11 +76,12 @@ form {
   label {
     display: flex;
     justify-content: space-between;
-    padding: 4px 36px 4px 40px;
+    // padding: 4px 36px 4px 30px;
   }
 
   input {
-    width: 100px;
+    width: 200px;
+    margin-bottom: 30px;
   }
 }
 
@@ -96,4 +97,24 @@ form {
     padding: 3px 8px;
     margin-top: 16px;
   }
+}
+.btn {
+  border-radius: 5px;
+  padding: 15px 15px;
+  font-family: inherit;
+  background-color: #263238;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  background-color: #34495E;
+}
+
+.form-box{
+ background-color: rgb(221, 215, 215);
+ 
 }
